@@ -40,10 +40,9 @@ moje nastavenia boli nasledovné:
 * nastaviť ***X_DRIVER_TYPE  DRV8825***
 * nastaviť ***Y_DRIVER_TYPE  DRV8825***
 * nastaviť ***Z_DRIVER_TYPE  DRV8825***
-* nastavit ***DEFAULT_AXIS_STEPS_PER_UNIT   { 20, 20, 20, 500 }***
-* nastavit ***DEFAULT_MAX_FEEDRATE          { 300, 100, 100, 25 }***
-
-
+* nastavit ***DEFAULT_AXIS_STEPS_PER_UNIT   { 25, 50, 50, 500 }***
+* nastavit ***DEFAULT_MAX_FEEDRATE          { 150, 300, 300, 25 }***
+* nastavit ***DEFAULT_MAX_ACCELERATION      { 3000, 3000, 3000, 10000 }***
 * nastavenie [displeja](https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller) ***REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER***
 
 
