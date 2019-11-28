@@ -18,6 +18,25 @@ git clone https://github.com/MarlinFirmware/Marlin
 
 Následne postupuj podľa inštrukcií popísaných v [Instalation](http://marlinfw.org/docs/basics/install.html).
 
+Aby bolo jednoduché downloadovať SW do arduina, je potrebné mať nainštalované prostredie Vscode alebo Atom a v ňom mať pripravené extension PlatformIO
+
+Potom je potrebné sprístupniť USB port, kde je pripojené Arduino. Napr: /dev/ttyUSB0. Inak budeš mať hlášku: "Cannot open /dev/ttyUSB0: Permission denied"
+
+použi na to príkaz:
+sudo usermod -a -G tty yourname
+
+ubuntu:
+```sh
+example: sudo usermod -a -G tty palo
+```
+
+manjaro archlinux:
+```sh
+example: sudo usermod -a -G uucp palo
+```
+
+potom neyabudni na: After the sudo usermod -a -G tty yourname you have to logout/login to get group addition happens.
+
 ## Komponenty pre pohyb
 
 * T8 Pitch 2mm Lead 2/ 8mm Rod Stainless Lead Screw Linear Rail Bar Shaft +T8 Nut
